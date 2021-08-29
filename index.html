@@ -8,10 +8,11 @@
 
     <!---LINK--->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="toggle.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">  
 </head>
-<body>
+<body class="">
     
     <!---NAVBAR---> 
     <div class="wrapper">
@@ -20,22 +21,25 @@
                 <div class="brand">
                     <h2>{C<b>S</b>}</h2>
                 </div>
+                <div class="modo" id="modo">
+                    <i class="fas fa-toggle-on"></i>
+                </div>
                 <input type="checkbox" id="check">
                 <label for="check" class="checkbtn">
-                    <i class="menu-icon"><img src="img/icono1.png.crdownload" alt="icono hamburgeza"></i>
+                    <i class="menu-icon"><img src="img/hamburgeza2.jpg" alt="icono hamburgeza"></i>
                 </label>
-
+                
                  <ul class="menu">
-                    <li><a class="active" href="#" >Inicio</a></li>
-                    <li><a href="#">Habilidades</a></li>
-                    <li><a href="#">Portafolio</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a class="active" href="#mein" ><b>Inicio</b></a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                  </ul>
             </nav>
         </header>
         
          <!---MAIN--->
-        <main class="main">
+        <main class="main" id="mein">
             <div class="info-content">
                 <h1>Cristian<b>Santana</b></h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptates quam, eligendi illum vitae, quia aliquam voluptatibus eius ad, molestiae repudiandae velit aut impedit ipsa reprehenderit rerum. Qui, id delectus.</p>
@@ -48,7 +52,7 @@
     </div>
     
       <!---SOBRE MI--->
-     <div class="abaut">
+     <div class="abaut" id="habilidades">
          <img src="img/perfil.jpg" alt="Cristian G. Santana">
          <div class="about-info">
             <h2>Habilidades</h2>
@@ -59,7 +63,7 @@
      </div>
 
       <!---PROYECTOS--->
-     <section class="our-projects">
+     <section class="our-projects" id="portafolio">
          <div class="deg-background">
              <div class="ejeZproject">
                  <div class="container-project">
@@ -88,7 +92,7 @@
      </section>
 
   <!---CONTACTO--->
-  <div class="contact-section">
+  <div class="contact-section" id="contacto">
     <div class="contact-headings">
         <h2>Keep in <b>touch</b></h2>
         <div class="divider"></div>
@@ -110,7 +114,11 @@
           </div>
         </div>
           <!---CONTACTO--->
-
+          <button class="arriba">
+            <a href="#">
+                <span><i class="fas fa-angle-up"></i></span>
+            </a>
+          </button>
            <!---FOOTER--->
        <footer class="footer">
         <div class="footer-content">
@@ -133,6 +141,7 @@
             <p>&copy; Cristian Santana - 2021 | hecho con mucho amor</p>
         </div>
    <!---FOOTER--->
+      
 
     <script src="main.js"></script>
 </body>
