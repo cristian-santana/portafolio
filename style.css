@@ -3,7 +3,7 @@
     --secundario:#2e5fff;
     --fondo: #191c32;
     --negro:#000;
-    --gris:#949cb6;
+    --gris:#94b1b6;
     --fon2: #2a2f5d ;
 }
 *{
@@ -11,10 +11,8 @@
     padding: 0;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-   
+    -moz-box-sizing: border-box;  
 }
-
 
 html{
     scroll-behavior: smooth;
@@ -26,7 +24,6 @@ section[id] {
 
 body{
  font-family: 'Montserrat', sans-serif;
- 
 }
 
 /*---NAVBAR--*/
@@ -42,22 +39,18 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-
-
 .navbar{ 
     display: flex;
     justify-content: space-between;
     padding: 1.5em;
     background-color: rgba(0,0,0,0.2);
     border-bottom: 1px solid var(--negro);
-    box-shadow: 3px 3px 11px -5px rgba(102,231,200,.69); 
-    
+    box-shadow: 3px 3px 11px -5px rgba(27, 71, 61, 0.69);    
 }
 
 .navbar ul li a {
     position: relative;
 }
-
 
 .navbar ul li a::before {
    content: "";
@@ -70,13 +63,11 @@ body{
    transition: 0.4s ease-out;
 }
 
-
 .brand {
     margin-top: -30px;
     font-size: 30px;
     color: var(--primario); 
 }
-
 
 .brand b {
     color: var(--secundario);
@@ -90,11 +81,9 @@ body{
     border-radius: 10px;
 }
 
-
 .menu-icon, #check{
     display: none;
 }
-
 
 /*---ICONO HAMBURGEZA--*/
 
@@ -104,11 +93,9 @@ body{
     justify-content: space-around;
 }
 
-
 .menu li {
     list-style: none;
 }
-
 
 .menu a {
     color: var(--primario);
@@ -131,7 +118,6 @@ body{
 /*---NAVBAR--*/
 
 
-
 /*---MAIN--*/
 .main {
     margin: 0 auto;
@@ -148,7 +134,7 @@ h1 {
 }
 
 h1 b {
-    color: var(--secundario);   
+    color: var(--secundario);  
 }
 
 .main p {
@@ -157,9 +143,11 @@ h1 b {
 }
 
 .main img {
-    padding: 20px;
-     width: 90%;
-     height:90%;
+   
+     width: 95%;
+     height: 95%;
+     margin-top: 15px;
+     border: 1px solid var(--primario); 
 }
 
 /*---BOTON--*/
@@ -192,7 +180,6 @@ img {
     background-color: var(--fon2);
     border-top: 3px solid var(--negro);
     border-bottom: 3px solid var(--negro);
-   
 }
 
 .abaut img{
@@ -208,7 +195,6 @@ img {
  font-weight: bold;
  margin: 50px 0px;
  margin-left: 3em;
-
  }
 
 .skills-skill{
@@ -221,8 +207,6 @@ img {
  background: var(--primario);
  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,  Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
  margin-left: 7em;
- cursor: pointer;
-
 }
 
 .skills-skill:hover{
@@ -236,30 +220,24 @@ img {
 list-style: none;
 padding: 0;
 
-
 display: block;
 flex-wrap: wrap;
 justify-content: center;
-
 }
 
 section p{
     color: var(--primario);
-    font-size: 20px;
-    margin-top: 10px;
+    font-size: 18px;
+    margin-top: 1em;
     margin-left: 80px;
     display: flex;
- 
 }
 
 section hr{
     display: flex;
-    margin-top: 60px;
+    margin-top: 6em;
     margin-left: 90px;
 }
-
-
-
 /*---ABOUT-INFO--*/
 
 
@@ -279,14 +257,13 @@ section hr{
     position: relative;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.5);
-   
+    background: rgba(0,0,0,0.5);  
 }
+
 .our-projects .container-project{
   width: 90%;
   margin: auto;
   padding-top: 100px;
- 
 }
 
 .our-projects .container-project .project-title {
@@ -319,15 +296,13 @@ section hr{
     padding-bottom: 100px;
 }
 
-.our-projects .container-project .project-img a img {
+.our-projects .container-project .project-img  img {
     width: calc(30% - 10px);
     margin: 10px;
     object-fit: cover;
     border-radius: 10px;
     cursor: pointer;
   }
-  
-
 /*---PROYECTOS--*/
 
 
@@ -343,8 +318,9 @@ section hr{
 .contact-section h2{
     font-size: 3em; 
     color: var(--primario); 
-  padding: 1em;
+   padding: 1em;
 }
+
 .contact-section h2 b{
   color: var(--secundario);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -358,7 +334,6 @@ section hr{
     font-size: 20px;
     color: var(--primario);
 }
-
 
 .container-contact img{
     width: 50%;
@@ -377,8 +352,6 @@ section hr{
     margin-bottom: 1em;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
-
 
 .form input{
     padding: 10px 20px;
@@ -422,6 +395,10 @@ section hr{
     color: var(--negro);
 }
 
+#trucazo{
+    opacity: 0;
+}
+
 /*---CONTACTO--*/
 
 
@@ -445,10 +422,8 @@ section hr{
 }
 .footer-content h5 {
     font-size: 1.5em;
-    color: var(--primario);
-    
+    color: var(--primario);    
 }
-
 
 .footer-content  b{
     color: var(--secundario);
@@ -488,7 +463,6 @@ section hr{
 
 
 /*---ARRIBA--*/
-
 .arriba {
     position: fixed;
     bottom: 100px;
@@ -516,9 +490,9 @@ section hr{
     background: var(--negro);
     box-shadow: 3px 3px 11px -5px rgba(102,231,200,.89);
 }
+
 .arriba i:hover{
    color: var(--secundario);
 }
-
 /*---ARRIBA--*/
 

@@ -16,17 +16,18 @@
 }
 
 .dark .navbar {
-    background: var(--azul) ;
+    background: var(--fon2);
+    background-color: rgba(0,0,0,0.4);
 }
 
 .dark .wrapper {
     background: var(--gris);
 }
 
-
 .dark .menu a {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .dark .menu .active {
     color: var(--primario);
 }
@@ -43,6 +44,7 @@
 .dark .abaut{
     background: var(--azul);
 }
+
 .dark .abaut p {
     color: var(--negro);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -86,14 +88,14 @@
 }
 
 .dark .footer{
-    background: var(--azul);
+    background: var(--fon2);
+    background-color: rgba(0,0,0,0.4);
 }
 
 
 .dark #modo {
     color: var(--negro);
 }
-
 /*---TOGGLE--*/
 
 
@@ -121,7 +123,7 @@
         height: 90vh;
         right: 0;
     }
-    
+
     .navbar .menu li{
         padding: 3rem;
         display: flex;
@@ -137,16 +139,13 @@
     .navbar .menu li .active {
         color: var(--primario);
     }
-    
 
-      /*---MAIN---*/
-       
+      /*---MAIN---*/ 
     .main {
         margin: 0 auto;
         width: 80vw;
         height: 80vh;
-        align-items: center; 
-       
+        align-items: center;   
     }
     
     h1 {
@@ -157,85 +156,80 @@
     .main p {
         color: var(--primario);
         width: 80%;
+
     }
     
     .main img {
         display: none;
+        
     }
-    
-
     /*---HABILIDADES---*/
     .abaut{
         height: 400px;
         display: block;
         background-color:  var(--fon2);
         border-top: 3px solid var(--negro);
-        border-bottom: 3px solid var(--negro);
-       
+        border-bottom: 3px solid var(--negro);     
     }
 
     .abaut img{
-        display: none;
-      
+       display: none;    
     }
 
     .slkills-title{
-     text-align: center;
-     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,  Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     color: var(--primario);
-     font-size: 30px;
-     text-transform: uppercase;
-     font-weight: bold;
-    
+       text-align: center;
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,  Cantarell, 'Open Sans', 'Helvetica Neue',    sans-serif;
+       color: var(--primario);
+       font-size: 30px;
+       text-transform: uppercase;
+       font-weight: bold;  
      }
 
     .skills-skill{
-     font-size: 20px;
-     font-weight: 500;
-     box-shadow: 0 4px 10px rgba(0,0,0,0.30);
-     border-radius: 15px;
-     padding: 0.5em 0.7em;
-     margin: 10px;
-     background: var(--primario);
-     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,  Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     padding: 0.5em 0.7em;
+       font-size: 20px;
+       font-weight: 500;
+       box-shadow: 0 4px 10px rgba(0,0,0,0.30);
+       border-radius: 15px;
+       padding: 0.5em 0.7em;
+       margin: 10px;
+       background: var(--primario);
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,  Cantarell, 'Open Sans', 'Helvetica Neue',     sans-serif;
+       padding: 0.5em 0.7em;
     }
 
     .skills-list {
-    list-style: none;
-    padding: 0;
+       list-style: none;
+       padding: 0;
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
     }
      section p{
-        display: none;
+        display: inline-block;
     }
     section hr{
         display: none;
     }
 
       
-/*---PROYECTOS--*/
+     /*---PROYECTOS--*/
  
-.our-projects .container-project{
-  width: 100%;
-  margin-left: 25%;
-}
+    .our-projects .container-project{
+         width: 100%;
+         margin-left: 25%;
+    }
 
-.our-projects .container-project .project-title {
-    width: 50%;
-    margin: 0%;
+    .our-projects .container-project .project-title {
+         width: 50%;
+         margin: 0%;
+    }
 
-}
-     
-   /*---CONTACTO--*/
-    
+     /*---CONTACTO--*/    
     .contact-section{
         display: flex;
-      align-items: center;
-      flex-direction: column;
+        align-items: center;
+        flex-direction: column;
     }
     
     .container-contact{
@@ -250,12 +244,10 @@
     }
     
     .form{
-        width: 50vw;
-       
+        width: 50vw;   
     }
-    
-    /*---ARRIBA--*/
 
+    /*---ARRIBA--*/
     .arriba {
          width: 30px;
         height: 30px;
@@ -266,7 +258,6 @@
     }
 
     /*---PROYECTOS--*/
-
     .our-projects .container-project .project-title h2{
         font-size: 20px;
         align-items: center;
@@ -276,8 +267,7 @@
         width: calc(50% - 10px);
         align-items: center
     }
-
-   
+ 
 
 };
     
